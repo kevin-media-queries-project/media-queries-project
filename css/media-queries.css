@@ -54,8 +54,11 @@
 
 }
 
-
+/*DESKTOP VERSION*/
 @media screen and (min-width: 426px) {
+    body{
+        overflow-x: clip;
+    }
 
     .alert-info{
         display: none;
